@@ -1,0 +1,19 @@
+$website-width: 1280px;
+$main-color: #38a3a5;
+$light-color: #c7f9cc;
+$medium-color: #57cc99;
+$dark-color: #00b295;
+$link-color:#252627;
+$bg-image: url('../img/showcase.jpg');  
+$gradient-color:linear-gradient(to right, #52c234, #061700);
+
+// set text color
+
+@function set-text-color($color){
+    @if(lightness($color)>50){
+        @return #000;
+    }
+    @else{
+        @return #fff
+    }
+}
