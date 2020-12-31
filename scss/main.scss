@@ -363,7 +363,7 @@ img {
       border-radius: 50%;
       height: 20px;
       width: 20px;
-      line-height: 20px;
+      line-height: 20px;   
       text-align: center;
       padding: 0.5rem;
     }
@@ -375,7 +375,7 @@ img {
     .fa-instagram:hover {
       cursor: pointer;
       background: #ffff;
-      color: #e1306c;
+      color: #e1306c;   
     }
 
     .fa-facebook:hover {
@@ -395,6 +395,6 @@ img {
       color: #fff;
     }
   }
-}
+}                                          
 
 @import 'media'; 

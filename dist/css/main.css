@@ -452,7 +452,8 @@ img {
     flex-direction: column;
     align-items: center; }
     #main-nav li {
-      padding: 1rem; }
+      padding: 1rem;
+      margin-left: 15px; }
   #header-home {
     height: 10rem;
     border-bottom: 3px solid #38a3a5;
@@ -467,7 +468,8 @@ img {
   #about-d .testimonials,
   #contact-b .contact-info,
   .items {
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    grid-gap: 5rem; }
   #home-a .specials div {
     border-bottom: 1px #c7f9cc solid;
     padding-bottom: 1rem; }
@@ -477,11 +479,11 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'aw1' 'aw2' 'aw3'; }
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3"; }
   #about-c {
     display: none; }
   #contact-a .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+    grid-template-areas: "name" "subject" "email" "phone" "message"; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;

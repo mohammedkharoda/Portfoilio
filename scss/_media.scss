@@ -15,9 +15,10 @@
     flex-direction: column;
     align-items: center;
 
-    li {
+    li {    
       padding: 1rem;
-    }
+      margin-left: 15px;
+    }     
   }
 
   #header {
@@ -44,6 +45,7 @@
   #contact-b .contact-info,
   .items {
     grid-template-columns: 1fr;
+    grid-gap: 5rem;
   }
 
   // Home
@@ -72,11 +74,11 @@
     &-a {
       .about-info {
         grid-template-areas:
-          'bioimage'
-          'bio'
-          'aw1'
-          'aw2'
-          'aw3';
+          "bioimage"
+          "bio"
+          "aw1"
+          "aw2"
+          "aw3";
       }
     }
 
@@ -90,11 +92,11 @@
     &-a {
       .text-fields {
         grid-template-areas:
-          'name'
-          'subject'
-          'email'
-          'phone'
-          'message';
+          "name"
+          "subject"
+          "email"
+          "phone"
+          "message";
       }
     }
 
@@ -130,12 +132,12 @@
     }
   }
 }
- 
+
 // Landscape
 @media (max-height: 580px) {
   #header-home {
     .header-content {
-      padding-top: 1rem;  
+      padding-top: 1rem;
     }
   }
 }
